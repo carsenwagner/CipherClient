@@ -31,7 +31,7 @@ file `build/libs/<modid>-<version>.jar`. Ignore the jars in the `build/badjars` 
 are used by the build system but *do not work* in a normal forge installation.
 
 If you don't want mixins (which allow for modifying vanilla code), then you can remove the references to mixins from
-the `build.gradle.kts` at the lines specified with comments and the `com.example.mixin` package.
+the `build.gradle.kts` at the lines specified with comments and the `com.cipher.mixin` package.
 
 If you don't want access transformers (which allow for making methods public/non-final) you can delete the
 `accesstransformer.cfg` file. If you make a change to the `accesstransformers.cfg` you might need to rebuild your
